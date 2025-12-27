@@ -7,18 +7,8 @@ from matplotlib.figure import Figure
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QLineEdit, QVBoxLayout, QWidget, QMessageBox
 from PyQt5.QtCore import Qt
 
-def validate_text(text: str) -> str | None:
-    """Return an error message if invalid, otherwise None."""
-    if not text:
-        return "Error: Please enter some text to encode"
+from validate_code import validate_text
 
-    if not text.strip():
-        return "Error: Text cannot be only whitespace"
-
-    if len(text) > 17:
-        return f"Error: Text is too long ({len(text)} chars). Version 1 supports maximum 17 characters."
-
-    return None
 
 class QRCanvas(FigureCanvas):
     def __init__(self, parent=None):
