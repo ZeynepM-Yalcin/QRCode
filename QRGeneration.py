@@ -7,6 +7,7 @@ from matplotlib.figure import Figure
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QLineEdit, QVBoxLayout, QWidget, QMessageBox
 from PyQt5.QtCore import Qt
 
+from informationUtility import InformationUtil
 from validate_code import validate_text
 
 
@@ -61,6 +62,9 @@ class MainWindow(QMainWindow):
         self.encodingWarning.setWordWrap(True)
         self.encodingWarning.setAlignment(Qt.AlignCenter)
 
+        self.infoBtn = QPushButton("Information & Help")
+        self.infoBtn.clicked.connect(self.showInformationDialog)
+
         layout = QVBoxLayout()
         layout.addWidget(label)
         layout.addWidget(self.textbox)
@@ -70,6 +74,7 @@ class MainWindow(QMainWindow):
         layout.addWidget(self.qrCanvas)
         layout.addWidget(self.statusLabel)
         layout.addWidget(self.encodingWarning)
+        layout.addWidget(self.infoBtn)
 
         container = QWidget()
         container.setLayout(layout)
@@ -132,6 +137,10 @@ class MainWindow(QMainWindow):
         self.qrCanvas.displayQR(qrCode)
         self.statusLabel.setText(f"QR Code generated successfully! ({len(textToEncode)} characters)")
         self.statusLabel.setStyleSheet("color: green;")
+    
+    def showInformationDialog(self):
+        dialog = InformationUtil(self)
+        dialog.exec_()
         
     def dataEncoding(self, textToEncode):
         binaryString = ""
