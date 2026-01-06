@@ -1,8 +1,8 @@
 # QRCode
 
-University coursework. 
+University group coursework. 
 
-Main file + individual enhancement ONLY
+Main file + my individual enhancement ONLY
 
 Text -> QR code
 
