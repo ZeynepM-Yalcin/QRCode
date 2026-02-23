@@ -1,12 +1,12 @@
 ### Meetings and Communication 
 
-During November, we met 1-2 times weekly for task 1 collaborative coding. In December and January, members 33004435 and 33027025 met several times again, adopting an agile approach with daily standups to share progress from the previous day and plan tasks for current. Throughout the project, we used a group chat to coordinate and share updates with the full team. 
+During November, we met 1-2 times weekly for task 1 collaborative coding. In December and January, members A---- and Zeynep met several times again, adopting an agile approach with daily standups to share progress from the previous day and plan tasks for current. Throughout the project, we used a group chat to coordinate and share updates with the full team. 
 
  
 
 ### Roles and Task Planning 
 
-Recognising different skill sets within the team, 33027025 and 33004435 handled primary coding for Tasks 1 and 2, wrote README, and allocated tasks to other members. Other members supported through research and everyone completed their own enhancements. We aimed to complete Task 1 by 4th December to allow sufficient time for subsequent tasks. 
+Recognising different skill sets within the team, Zeynep and A---- handled primary coding for Tasks 1 and 2, wrote README, and allocated tasks to other members. Other members supported through research and everyone completed their own enhancements. We aimed to complete Task 1 by 4th December to allow sufficient time for subsequent tasks. 
 
  
 
@@ -29,5 +29,6 @@ While nature of contributions varied based on individual strengths, we believe e
 We used the thonky qr code generator guide through this assignment. It stated we picked our own version, we chose 7. After rereading the assignment brief we noticed we were told to use version 1, so we had to remove alignment pattern's and adjust qr size.  
 
  
+
 
 In task 1 we used the thonky qr code generator to debug but our output wasn’t matching. After asking a lecturer we realised we weren't clicking the ISO-8859-1 feature so on our line 9 output the bits were shifted 1 bit extra to the left. We adjusted the format string placement loop. 
