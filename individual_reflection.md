@@ -1,6 +1,4 @@
-## Student ID: 330270255
-
-**Branch name:** 33027025_enhancement
+**Branch name:** Zeynep_enhancement
 
 **Individually created module(s):** qr_mask_selector.py, modifications to QrGeneration.py stated in comments
 
@@ -98,3 +96,4 @@ If revising, I would write unit tests for each penalty rule first, validate data
 ![maskFunctionality](/uploads/61c9ac87adcbf96a76f9c4569f63179e/maskFunctionality.png)
 
 This image shows the generated QR codes for the word "known" using the masking patterns auto, 0-7. The encoding mode was set to version 1 Level L.
+
