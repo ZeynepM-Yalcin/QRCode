@@ -2,8 +2,6 @@
 
 **Individually created module(s):** qr_mask_selector.py, modifications to QrGeneration.py stated in comments
 
-**Link to merge of individual branch to main:** https://csgitlab.reading.ac.uk/ac004435/a20/-/blob/main/QrGeneration.py
-
 **Key function/method(s):** find_best_mask(), apply_mask(), calculate_penalty(), penalty_rule_1(), penalty_rule_2(), penalty_rule_3(), penalty_rule_4()
 
 **Designed to:** Evaluate all 8 QR mask patterns using the 4 penalty scoring rules from the QR specification and automatically select the optimal mask pattern. Users can  manually override and select a specific mask pattern via dropdown menu.  
@@ -96,4 +94,5 @@ If revising, I would write unit tests for each penalty rule first, validate data
 ![maskFunctionality](/uploads/61c9ac87adcbf96a76f9c4569f63179e/maskFunctionality.png)
 
 This image shows the generated QR codes for the word "known" using the masking patterns auto, 0-7. The encoding mode was set to version 1 Level L.
+
 
