@@ -1,5 +1,11 @@
 # QR Generator
-Module Code:CS2PP
+Group section result : 72/78
+
+Individual section result : 21/22
+
+Overall : 93%
+
+Module Code: CS2PP
 
 Assignment report Title: QR Code Generation assignment
 
