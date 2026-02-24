@@ -1,4 +1,6 @@
 # QR Generator
+This repository only includes the main QRGeneration file, and my individual work.
+
 Group section result : 72/78
 
 Individual section result : 21/22
