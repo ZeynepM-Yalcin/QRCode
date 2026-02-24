@@ -2,10 +2,6 @@ Module Code:CS2PP
 
 Assignment report Title: QR Code Generation assignment
 
-Student Numbers:33004435,31820309, 31825794,33021637,33027025
-
-Actual hrs spent for the assignment: 35
-
 Which Artificial Intelligence tools used: Claude AI, Microsoft 365 Co-Pilot, ChatGPT
 
 CSGit
@@ -205,14 +201,6 @@ Pipeline Jobs succeeding:
 Pipeline Test Report:  
 [!Tests succeeding](/uploads/b3bf2fded05905ed2d26d9733be526d5/Pipeline_tests_complete.png)
 
-### Implemented project enhancement and authors
-
-- 33004435:Extending Version 1 Level L encoding to enable flexible QR codes at Versions 1 & 2 and Levels L, M, Q, and H.
-- Nadya: Implemented a step-by-step QR code construction slideshow that visually explains how a QR code is built. The feature records intermediate construction stages, allows users to manually navigate through annotated steps, and provides the option to save any step as an image to support digital literacy and learning.
-- 33027025: Evaluates all 8 QR mask patterns with penalty scoring to automatically select the optimal mask, provides manual selection option, and logs mask choices with penalty scores.
-- Nina: Analytics and logging
-- Lase: An accessible QR and visual customisation, creates different colour options for contrast and readability.
-
 ### Program paradigms
 
 **Imperative** :  
@@ -308,30 +296,6 @@ This video first shows a qr code being generated using auto encoding and auto ma
 ### Link to group reflection
 https://csgitlab.reading.ac.uk/ac004435/a20/-/blob/96f011b89ee61bf0a501a04bda4efa889bee1f1c/group_reflection.md
 
-### Link to individual reflection an demonstration files
-**33004435:**
-demonstration: https://csgitlab.reading.ac.uk/ac004435/a20/-/tree/Alvia_enhancement  
-reflection: https://csgitlab.reading.ac.uk/ac004435/a20/-/blob/main/individual_33004435.md?ref_type=heads 
-
-**33027025:**
-Enhancement: https://csgitlab.reading.ac.uk/ac004435/a20/-/blob/33027025/qr_mask_selector.py?ref_type=heads
-
-Demonstration of my enhancement working can be found at the bottom of my **reflection**: https://csgitlab.reading.ac.uk/ac004435/a20/-/blob/main/individual_33027025.md?ref_type=heads
-
-**31825794:**
-Enhancement: https://csgitlab.reading.ac.uk/ac004435/a20/-/blob/main/qr_customisation.py?ref_type=heads
-
-Demonstration and reflection: https://csgitlab.reading.ac.uk/ac004435/a20/-/blob/main/individual_31825794.md
-
-**33021637:**
-Enhancement: https://csgitlab.reading.ac.uk/ac004435/a20/-/blob/33021637_enhancement/qr_slideshow.py?ref_type=heads
-
-Reflection: https://csgitlab.reading.ac.uk/ac004435/a20/-/blob/main/individual_33021637.md
-
-**31820309:** 
-Enhancement: https://csgitlab.reading.ac.uk/ac004435/a20/-/blob/e9099a803a03f4d5477671252c798a4e48b728e5/qr_logger.py
-
-Reflection: https://csgitlab.reading.ac.uk/ac004435/a20/-/blob/e9099a803a03f4d5477671252c798a4e48b728e5/individual_31820309.md
 
 ### AI tools and references used
 **Reedsolo:**
