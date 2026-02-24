@@ -1,3 +1,4 @@
+# QR Generator
 Module Code:CS2PP
 
 Assignment report Title: QR Code Generation assignment
@@ -7,7 +8,7 @@ Which Artificial Intelligence tools used: Claude AI, Microsoft 365 Co-Pilot, Cha
 CSGit
 Lab Project Repository URL: https://csgitlab.reading.ac.uk/ac004435/a20
 ------------------------------------------------------------------------------------------
-# QR code generator
+
 
 ### Application description and instructions
 
